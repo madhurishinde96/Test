@@ -1,0 +1,109 @@
+<html>
+
+<body>
+
+    <script>
+
+let age=25;
+
+if(age>=18)
+{
+    document.write("eligible");
+}
+else
+{
+
+    document.write("Not eligible");
+}
+
+</script>
+
+<script>
+
+    let age = 20;
+    let citizen="US";
+
+    if(age<=25){
+
+        
+    }else if(citizen.includes("indian")){
+
+        document.write("Person is eligible");
+    }
+    else{
+        document.write("Not eligible");
+    }
+</script>
+
+
+</body>
+
+</html>
+
+===============================================
+
+
+<html>
+
+<body>
+
+    <p id="demo1"> this isa a paragraph111</p>
+
+<script>
+
+
+//String varibale
+let a="A String";
+document.write(a);
+
+//boolean DataType
+let y=true;
+
+// int DataType
+let val=20;
+
+const subject=["math","English","Computers"]
+
+document.getElementById('demo1').innerHTML=a;
+
+
+let value="cdacdsdscvdscvjhv dh vjdv hjvsdjv hjsd jhvd hjbhsd ";
+document.write(value.length);
+
+
+let stringValue="tj, simplilearn , students";
+let portion=stringValue.slice(5,10);
+document.write(portion);
+document.write("<br>");
+
+
+let value2="Simplilearn  automation";
+let newValue=value2.replace("automation","Cypress");
+document.write(newValue);
+
+    </script>
+
+</body>
+
+
+</html>
+
+
+=========================================================
+
+
+<html>
+    <body>
+
+        <p id="demo"> this isa a paragraph</p>
+
+        <button type="button" onclick="document.getElementById('demo').style.fontSize='50px'">youCanClickMe</button>
+
+        <p id="demo1"> this isa a paragraph111</p>
+        
+        <script>
+
+           document.getElementById('demo1').innerHTML=5;
+        </script>
+    </body>
+</html>
